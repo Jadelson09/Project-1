@@ -8,7 +8,6 @@
   background: #00a2ff;
   color: white;
   font-size: 20px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .footer {
   padding: 5px;
@@ -67,6 +66,12 @@
       border-style:solid;
       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0, 0, 0, 0.171);
   }
+  #searchbar {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0, 0, 0, 0.171);
+    font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      padding-top: 10px;
+}
   form { 
     text-align: center;
     padding: 10px;
@@ -78,6 +83,15 @@
     <div class="header">
         <h1>Travel Blog</h1>
       </div>
+      <div></div>
+      <section>
+        <form id="searchbar">
+          <label for="search">Search:</label>
+          <input type="search" id="search" name="search">
+          <input type="submit" name="submit" value="Go!">
+        </form>
+      </section>
+    </div>
 <div>
     <img class="larger-image" src="https://lp-cms-production.imgix.net/2019-06/97d168c71f3c513994453698cb7d0ddc47da5d72f97cb92c4b988ac3cef16fd0.jpg?auto=format&fit=crop&ixlib=react-8.6.4&h=520&w=1312&q=75&dpr=1">
 </div>
