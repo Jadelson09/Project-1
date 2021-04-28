@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\VIKRON\\Projects\\Website1\\Website2.html"
+            "file": "c:\\Users\\VIKRON\\Projects\\index.html\\Website3.html"
         }
     ]
 }
