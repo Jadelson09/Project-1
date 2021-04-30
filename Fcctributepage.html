@@ -12,6 +12,22 @@
             font-family: "Asul";
             text-align: center;
         }
+        h1 {
+    font-family: 'Asul';
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Asul';
+    font-size: 20px;
+    text-align: center;
+}
+
+.cite-align {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
         #img-div {
             background: lightgray;
             padding: 10px;
@@ -19,6 +35,12 @@
         }
         #image {
            display: block;
+        }
+        .smaller-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
         }
         #img-caption {
             margin: auto;
@@ -30,13 +52,16 @@
             color: rgb(205, 0, 0);
         }
         button {
-            padding: 10px;
-            margin: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 35px;
             border-radius: 5px;
             background-color: rgb(11, 235, 243);
         }
         .button-align {
             text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
         ul {
      text-align: center;
@@ -56,7 +81,7 @@
         {
             #image {
                 width: 100%;
-                max-width: 1216px;
+                max-width: 1200px;
                 height: auto;
                 /* style for medium size screen */
             }
@@ -70,6 +95,13 @@
                 /* style for small size screen */
             }
         }
+        footer {
+    padding: 20px;
+     background-color: hsl(190, 19%, 81%);
+     border-radius: 10px;
+     text-align: center;
+     margin: auto;
+}
 
     </style>
 
@@ -77,7 +109,9 @@
 
 <h1 id="title">A Tribute To Martin Luther King Jr</h1>
 
-<cite>"I have a dream that one day every valley shall be exhalted, every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight, and the glory of the Lord shall be revealed, and all flesh shall see it together." - Martin Luther King Jr</cite>
+<div>
+<cite class="cite-align">"I have a dream that one day every valley shall be exhalted, every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight, and the glory of the Lord shall be revealed, and all flesh shall see it together." - Martin Luther King Jr</cite>
+</div><br>
 
 <div id="img-div">
     <img id="image" src="https://cdn.britannica.com/18/1918-050-0166D6BB/Martin-Luther-King-Jr.jpg" alt="Martin Luther King Jr Speech"/>
@@ -85,6 +119,7 @@
 </div>
 
 <section id="tribute-info">
+    <h2>About Martin Luther King Jr</h2>
 <p>Martin Luther King, Jr., (January 15, 1929-April 4, 1968) was born Michael Luther King, Jr., but later had his name changed to Martin. His grandfather began the family’s long tenure as pastors of the Ebenezer Baptist Church in Atlanta, serving from 1914 to 1931; his father has served from then until the present, and from 1960 until his death Martin Luther acted as co-pastor. Martin Luther attended segregated public schools in Georgia, graduating from high school at the age of fifteen; he received the B. A. degree in 1948 from Morehouse College, a distinguished Negro institution of Atlanta from which both his father and grandfather had graduated.</p>
 <p>After three years of theological study at Crozer Theological Seminary in Pennsylvania where he was elected president of a predominantly white senior class, he was awarded the B.D. in 1951. With a fellowship won at Crozer, he enrolled in graduate studies at Boston University, completing his residence for the doctorate in 1953 and receiving the degree in 1955. In Boston he met and married Coretta Scott, a young woman of uncommon intellectual and artistic attainments. Two sons and two daughters were born into the family.</p>
 <p>In 1954, Martin Luther King became pastor of the Dexter Avenue Baptist Church in Montgomery, Alabama. Always a strong worker for civil rights for members of his race, King was, by this time, a member of the executive committee of the National Association for the Advancement of Colored People, the leading organization of its kind in the nation. He was ready, then, early in December, 1955, to accept the leadership of the first great Negro nonviolent demonstration of contemporary times in the United States, the bus boycott described by Gunnar Jahn in his presentation speech in honor of the laureate. </p>
@@ -95,10 +130,19 @@
 <p>On the evening of April 4, 1968, while standing on the balcony of his motel room in Memphis, Tennessee, where he was to lead a protest march in sympathy with striking garbage workers of that city, he was assassinated</p>
 </section>
 
+<div>
 <button class="button-align"><a href="https://www.nobelprize.org/prizes/peace/1964/king/biographical/" target="_blank" id="tribute-link">Learn More</a></button>
+</div>
 
 <section>
+
+    <div id="img-div">
+        <img class="smaller-image" src="https://cdn.pixabay.com/photo/2013/07/13/01/20/martin-luther-king-155551_1280.png" alt="Martin Luther King Jr Portrait"/>
+        <caption id="img-caption">Martin Luther King Jr Portrait</caption>
+    </div>
     
+    <h2>Timeline: The life of Martin Luther King Jr.</h2>
+
 <ul>
     <li><strong>1929</strong></li>
         <p><strong>Jan 15</strong>: Michael King is born in Atlanta. His father changes the boy’s name, as well as his own, to Martin Luther King several years later.</p>
@@ -124,15 +168,11 @@
 </ul> 
 </section>
 
-<button><a href="https://www.usatoday.com/story/news/nation-now/2018/02/02/martin-luther-king-jr-timeline/1061525001/" target="_blank">More on King Timeline</a></button>
+<div>
+<button class="button-align"><a href="https://www.usatoday.com/story/news/nation-now/2018/02/02/martin-luther-king-jr-timeline/1061525001/" target="_blank">More on King Timeline</a></button>
+</div>
 
 
-
-
-
-
-
+<footer>Copyright Jason Adelson - FreeCodeCamp Tribute Project 2021</footer>
 </main>
-<footer>Copyright Jason Adelson - FreeCodeCamp 2021</footer>
-
 </html>
