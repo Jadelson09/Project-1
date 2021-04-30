@@ -12,9 +12,12 @@
 
 h1 {
     font-family: 'Asul';
+    font-size: 50px;
+    text-align: center;
 }
 h2 {
     font-family: 'Asul';
+    font-size: 20px;
 }
  
  p {
@@ -35,12 +38,21 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.large-image-center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .text-center {
      text-align: center;
  }
  ul {
      text-align: center;
      list-style: none;
+     font-size: 15px;
  }
 
 footer {
@@ -83,8 +95,14 @@ button:hover{
     /* Only change code above this line */
   }
 
-</style>
+  @media screen and (max-width: 600px) {
+      button {
+          font-size: 20px;
+      }
+  }
 
+</style>
+<main></main>
 <head>
 <title>Martin Luther King Jr Tribute Page</title>
 </head>
@@ -93,6 +111,7 @@ button:hover{
 <h1>A Tribute To Martin Luther King Jr</h1>
 </header>
 </div>
+
 <body>
 <div class="left right">
 <h2 class="text-center"><em>"I have a dream that one day every valley shall be exhalted, every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight, and the glory of the Lord shall be revealed, and all flesh shall see it together." - Martin Luther King Jr</em></h2>
@@ -111,8 +130,11 @@ button:hover{
 <p>At the age of thirty-five, Martin Luther King, Jr., was the youngest man to have received the Nobel Peace Prize. When notified of his selection, he announced that he would turn over the prize money of $54,123 to the furtherance of the civil rights movement.</p>
 <p>On the evening of April 4, 1968, while standing on the balcony of his motel room in Memphis, Tennessee, where he was to lead a protest march in sympathy with striking garbage workers of that city, he was assassinated</p>
 </div>
+<div class="button-align">
+<button>Nobel Peace Prize<a href="https://www.nobelprize.org/prizes/peace/1964/king/biographical/" target="_blank"></a></button>
+</div>
 <div>
-<img class="image-center" src="https://cdn.britannica.com/18/1918-050-0166D6BB/Martin-Luther-King-Jr.jpg" alt="Martin Luther King Jr Speech">
+<img class="large-image-center" src="https://cdn.britannica.com/18/1918-050-0166D6BB/Martin-Luther-King-Jr.jpg" alt="Martin Luther King Jr Speech">
 </div>
 <div>
 <h2 class="text-center">Timeline: The life of Martin Luther King Jr.</h2>
@@ -120,42 +142,42 @@ button:hover{
 <div class="text-center">
 <ul>
     <div>
-    <li>1929</li>
+    <li><strong>1929</strong></li>
     <p><strong>Jan 15</strong>: Michael King is born in Atlanta. His father changes the boy’s name, as well as his own, to Martin Luther King several years later.</p>
     </div>
     <div>
-     <li>1944</li>
+     <li><strong>1944</strong></li>
      <p><strong>Sept 20</strong>: King enrolls at Morehouse College after passing the entrance exam at age 15.</p>
         </div>   
         <div> 
-        <li>1946</li>
+        <li><strong>1946</strong></li>
         <p><strong>Aug 6</strong>: The Atlanta Constitution publishes a letter to the editor from King supporting minority rights.</p>
         </div>
         <div>
-        <li>1948</li>
+        <li><strong>1948</strong></li>
         <p><strong>Feb 25</strong>: King is ordained and becomes assistant pastor at Ebenezer Baptist Church in Atlanta, his father’s church.</p>
         <p><strong>June 8</strong>: King graduates from Morehouse College with bachelor’s degree in sociology.</p>
         <p><strong>Sept 14</strong>: King enters Crozer Theological Seminary in Chester, Pa.</p>
         </div>
         <div>
-        <li>1951</li>
+        <li><strong>1951</strong></li>
         <p><strong>May 8</strong>: King graduates from Crozer with bachelor of divinity degree. He delivers valedictory address.</p>
         <p><strong>Sept 13</strong>: King begins graduate studies in systematic theology at Boston University’s School of Theology.</p>
         </div>
         <div>
-        <li>1952</li>
+        <li><strong>1952</strong></li>
         <p><strong>Jan</strong>: King meets Coretta Scott in Boston</p>
         </div>
         <div>
-            <li>1953</li>
+            <li><strong>1953</strong></li>
             <p><strong>June</strong>: King and Coretta Scott are married near Marion, Ala. King’s father officiates at the service.</p>
             </div>
             <div>
-                <li>1954</li>
+                <li><strong>1954</strong></li>
                 <p><strong>Sept 1</strong>: King begins his pastorate at Dexter Avenue Baptist Church in Montgomery, Ala.</p>
                 </div>
                 <div>
-                    <li>1955</li>
+                    <li><strong>1955</strong></li>
                     <p><strong>June 5</strong>: King earns doctorate from Boston University.</p>
                     </div>   
   </ul>
@@ -163,9 +185,9 @@ button:hover{
   <button>Learn More <a href="https://www.usatoday.com/story/news/nation-now/2018/02/02/martin-luther-king-jr-timeline/1061525001/" target="_blank"></a></button>
 </div>
 </div>
-
+<footer>Copyright Jason Adelson - FreeCodeCamp 2021</footer>
 </body>
+</main>
 
-<footer>Copyright Jason Adelson 2021 Credits to usatoday.com and nobelprize.org & usatoday</footer>
 
 </html>
