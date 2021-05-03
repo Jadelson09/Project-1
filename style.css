@@ -1,0 +1,131 @@
+#main {
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background: hsl(204, 90%, 85%);
+}
+
+#title {
+    text-align: center;
+}
+
+body {
+    font-family: "Asul";
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Asul';
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Asul';
+    font-size: 20px;
+    text-align: center;
+}
+
+.cite-align {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#img-div {
+    background: lightgray;
+    padding: 10px;
+    margin: auto;
+}
+
+#image {
+    display: block;
+}
+
+.smaller-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#img-caption {
+    margin: auto;
+}
+
+#text-div {
+    margin-bottom: 20px;
+}
+
+#tribute-info {
+    text-align: justify;
+}
+
+#tribute-link {
+    color: rgb(0, 0, 0);
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border-color: chartreuse;
+    font-size: 15px;
+}
+
+.button-align {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    animation-name: inherit;
+    animation-duration: 500ms;
+    background-color: rgb(56, 231, 56);
+    /* Only change code below this line */
+    animation-fill-mode: forwards;
+    /* Only change code above this line */
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1920px) {
+    #image {
+        width: 100%;
+        max-width: 1850px;
+        height: auto;
+        /* style for large screen */
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #image {
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+        /* style for medium size screen */
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    #image {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        /* style for small size screen */
+    }
+}
+
+footer {
+    padding: 20px;
+    background-color: hsl(190, 19%, 81%);
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
