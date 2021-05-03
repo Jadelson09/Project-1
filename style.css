@@ -64,29 +64,17 @@ h2 {
     color: rgb(0, 0, 0);
 }
 
-button {
+#div-button {
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 35px;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    border-color: chartreuse;
+    border-radius: 25px;
+    margin-left: 830px;
+    margin-right: 830px;
+    background-color: rgb(56, 231, 56);
+    border-color: rgb(253, 253, 253);
     font-size: 15px;
-}
-
-.button-align {
-    text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
-}
-
-button:hover {
-    animation-name: inherit;
-    animation-duration: 500ms;
-    background-color: rgb(56, 231, 56);
-    /* Only change code below this line */
-    animation-fill-mode: forwards;
-    /* Only change code above this line */
 }
 
 ul {
@@ -112,6 +100,62 @@ ul {
         /* style for medium size screen */
     }
 }
+@media only screen and (max-width: 1700px) {
+    #div-button {
+        display: block;
+        margin-left: 470px;
+        margin-right: 470px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(56, 231, 56);
+    border-color: rgb(253, 253, 253);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    #div-button {
+        display: block;
+        margin-left: 470px;
+        margin-right: 470px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(56, 231, 56);
+    border-color: rgb(253, 253, 253);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #div-button {
+        display: block;
+        margin-left: 240px;
+        margin-right: 240px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(56, 231, 56);
+    border-color: rgb(253, 253, 253);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #div-button {
+        display: block;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(56, 231, 56);
+    border-color: rgb(253, 253, 253);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    }
+}
 
 @media only screen and (max-width: 340px) {
     #image {
@@ -119,6 +163,18 @@ ul {
         max-width: 320px;
         height: auto;
         /* style for small size screen */
+    }
+    #div-button {
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(56, 231, 56);
+    border-color: rgb(253, 253, 253);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
     }
 }
 
