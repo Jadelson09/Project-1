@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+  }
+  body {
+      font-family: "Asul";
+      font-size: 1rem;
+      line-height: 1.4;
+      color: whitesmoke;
+      text-align: center;
+      background: linear-gradient(90deg,#8B008B,#80dbff);
+  }
+  form {
+      background: rgb(81, 81, 155);
+      border-radius: 30px;
+      margin-left: 25%;
+      margin-right: 25%;
+  }
+  .form-display {
+      display: block;
+      height: auto;
+      padding: 20px 20px 20px 20px;
+      background-clip: padding-box;
+  }
+  .radio-input {
+  display: inline-block;
+  font-size: 50px;
+  }
+
+  .text-input {
+height: 10px;
+width: 20%;
+padding: 10px;
+border-radius: 5px;
+border-color: seashell;
+  }
+  .number-input {
+    height: 10px;
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: seashell;
+      }
