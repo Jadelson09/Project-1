@@ -1,101 +1,115 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Research Survey</title>
-        <link href="surveyformstyle2.css" type="text/css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Asul' type="text/css" rel='stylesheet'>
-    </head>
-    
-    <body>
-        <div class="container">
-    <header>
-        <h1 id="title">Research Survey</h1>
-        <p id="description">Please take a few minutes to tell us more about you and your preferences</p>
-    </header>
-    
-    <form id="survey-form">
-        <div>
-            <p>What is your name?</p>
-            <label id="name-label" for="name">
-                <input id="name" class="type-text" type="text" name="name" placeholder="Enter your name" required>
-            </label>
-        </div>
-        <div>
-            <p>What is your email address?</p>
-            <label id="email-label" for="email">
-                <input id="email" class="type-text" type="email" name="email" placeholder="Enter your email" required>
-            </label>
-        </div>
-        <div>
-            <p>What is your phone number?</p>
-            <label id="phone number-label" for="phone number">
-                <input id="tel" class="type-number" type="tel" name="phone number" placeholder="Phone Number">
-            </label>
-        </div>
-        <div>
-            <p>What is your age?</p>
-            <label id="number-label" for="age">
-                <input id="number" class="type-number" type="number" min="12" max="100" name="age" placeholder="Age" required>
-            </label>
-        </div>
-        <div>
-            <p>What is your gender?</p>
-            <label id="gender-label" class="label-gender" for="gender">
-                <input id="Gender" type="radio" name="Male-Female-Other" value="Male">Male
-                <input id="Gender" type="radio" name="Male-Female-Other" value="Female">Female
-                <input id="Gender" type="radio" name="Male-Female-Other" value="Other">Other
-            </label>
-        </div>
-        <div>
-           <p>What is your marital status?</p>
+
+<head>
+    <title>Research Survey</title>
+    <link href="surveyformstyle2.css" type="text/css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Asul' type="text/css" rel='stylesheet'>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Research Survey</h1>
+            <p id="description">Please take a few minutes to tell us more about you and your preferences</p>
+        </header>
+
+        <form id="survey-form">
+            <div>
+                <p>What is your name?</p>
+                <label id="name-label" for="name">
+                    <input id="name" class="type-text" type="text" name="name" placeholder="Enter your name" required>
+                </label>
+            </div>
+            <div>
+                <p>What is your email address?</p>
+                <label id="email-label" for="email">
+                    <input id="email" class="type-text" type="email" name="email" placeholder="Enter your email"
+                        required>
+                </label>
+            </div>
+            <div>
+                <p>What is your phone number?</p>
+                <label id="phone number-label" for="phone number">
+                    <input id="tel" class="type-number" type="tel" name="phone number" placeholder="Phone Number">
+                </label>
+            </div>
+            <div>
+                <p>What is your age?</p>
+                <label id="number-label" for="age">
+                    <input id="number" class="type-number" type="number" min="12" max="100" name="age" placeholder="Age"
+                        required>
+                </label>
+            </div>
+            <div>
+                <p>What is your gender?</p>
+                <label id="gender-label" class="label-gender" for="gender">
+                    <input id="Gender" type="radio" name="Male-Female-Other" value="Male">Male
+                    <input id="Gender" type="radio" name="Male-Female-Other" value="Female">Female
+                    <input id="Gender" type="radio" name="Male-Female-Other" value="Other">Other
+                </label>
+            </div>
+            <div>
+                <p>What is your marital status?</p>
                 <select id="dropdown" name="marital status" required>
-                <option disabled selected value>Choose your current marital status</option>
-                <option value="Single">Single</option>
-                <option value="Married">Married</option>
-                <option value="Divorced">Divorced</option>
-                <option value="Widowed">Widowed</option>
-                <option value="Prefer not to answer">Prefer not to answer</option>
-            </select>
-        </div>
-        <div>
-            <p>What is your average monthly income in Maurtitian rupees?</p>
-            <label id="monthly income" class="type-number" for="average monthly income">
-                <input type="number" name="average monthly income" placeholder="       Monthly Income" required>
+                    <option disabled selected value>Choose your current marital status</option>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                    <option value="Widowed">Widowed</option>
+                    <option value="Prefer not to answer">Prefer not to answer</option>
+                </select>
+            </div>
+            <div>
+                <p>What is your average monthly income in Maurtitian rupees?</p>
+                <label id="monthly income" class="type-number" for="average monthly income">
+                    <input type="number" name="average monthly income" placeholder="       Monthly Income" required>
+                </label>
+            </div>
+            <div>
+                <p>What is your current employment status?</p>
+                <select id="dropdown" name="employment status" required>
+                    <option disabled selected value>Employment Status</option>
+                    <option value="Employed Full time">Employed Fulltime</option>
+                    <option value="Employed Part time">Employed Part time</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="Student">Student</option>
+                    <option value="Self-Employed">Self-Employed</option>
+                    <option value="Prefer not to answer">Prefer not to answer</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Post-confinement what are you most likely spending money on?</p>
+                <label id="consumer pattern" for="consumer pattern">
+                    <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox"
+                            name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Entertainment"
+                            checked>Entertainment
+                </label>
+            </div>
+            <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox"
+                    name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Food" checked>Food</label></div>
+            <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox"
+                    name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Clothes" checked>Clothes</label></div>
+            <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox"
+                    name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Jewellery" checked>Jewellery</label>
+            </div>
+            <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox"
+                    name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Vacation" checked>Vacation</label></div>
             </label>
-        </div>
-        <div>
-            <p>What is your current employment status?</p>
-                 <select id="dropdown" name="employment status" required>
-                 <option disabled selected value>Employment Status</option>
-                 <option value="Employed Full time">Employed Fulltime</option>
-                 <option value="Employed Part time">Employed Part time</option>
-                 <option value="Unemployed">Unemployed</option>
-                 <option value="Student">Student</option>
-                 <option value="Self-Employed">Self-Employed</option>
-                 <option value="Prefer not to answer">Prefer not to answer</option>
-             </select>
-         </div>
-       
-        <div>
-            <p>Post-confinement what are you most likely spending money on?</p>
-            <label id="consumer pattern" for="consumer pattern">
-                <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox" name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Entertainment" checked>Entertainment</label></div>
-                <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox" name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Food" checked>Food</label></div>
-                <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox" name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Clothes" checked>Clothes</label></div>
-                <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox" name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Jewellery" checked>Jewellery</label></div>
-                <div class="div-align-checkbox"><input id="consumer pattern" type="checkbox" name="Entertainment-Food-Clothes-Jewellery-Vacation" value="Vacation" checked>Vacation</label></div>
-            </label>
-        </div>
-        <div>
-            <p>Describe how covid-19 has affected your spending behaviour?</p>
-            <div class="div-align"><textarea id="description" class="description-textarea" name="description" placeholder="Enter your answer here" required></textarea></div>
-        </div>
+    </div>
+    <div>
+        <p>Describe how covid-19 has affected your spending behaviour?</p>
+        <div class="div-align"><textarea id="description" class="description-textarea" name="description"
+                placeholder="Enter your answer here" required></textarea></div>
+    </div>
     <div>
         <div class="div-align"> <button id="submit" class="div-button" type="submit">Submit</button></div>
     </div>
     </form>
-    
+
     </div>
     <footer>Copyright Jason Adelson - FreeCodeCamp Survey Form Project 2021</footer>
-    </body>
+</body>
+
 </html>
