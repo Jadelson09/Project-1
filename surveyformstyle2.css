@@ -128,6 +128,12 @@ form {
   padding: auto;
   resize: vertical;
   display: block;
+  text-align: center;
+}
+
+#monthly-income {
+  text-align: center;
+  font-family: inherit;
 }
 
 .div-align {
