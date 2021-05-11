@@ -1,5 +1,93 @@
-.container {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-  }
+html {
+    font-family:  "Asul";
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    margin-left: 7rem;
+}
+
+.nav-title-body {
+    text-align: center;
+    font-size: 35px;
+}
+
+#header-img {
+    max-width: 150px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+#video {
+    display: block;
+    align-items: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-one {
+    display: block;
+    align-items: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sec-one {
+        position: relative;
+        left: 20%;
+        top: -600px
+}
+.sec-two {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: -17rem
+}
+
+.ul-specs {
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    list-style: none;
+    display: inline-flex;
+}
+.contact-form {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
