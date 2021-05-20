@@ -51,4 +51,47 @@ table {
 footer {
     text-align: center;
 }
-
+@media only screen and (max-width: 815px) {
+        #navbar {
+            position: fixed;
+            height: 100%;
+            width: 150px;
+            padding-top: 10px;
+            background-color: teal;
+            font-family: 5px;
+            }
+            #navbar a {
+                display: block;
+                padding: 15px;
+                color: #ffffff;
+                text-decoration: none;
+                cursor: pointer;
+              }
+              img {
+                width: 90px;
+                padding-bottom: 10px;
+                margin-right: 1rem;
+            }
+            .header-text {
+                font-size: 11px;
+                color: white;
+                padding: 10px;
+            }
+            .nav-link {
+                color: white;
+                font-size: 10px;
+            }
+            #main-doc {
+                font-size: 10px;
+                text-align: center;
+            }
+            footer {
+                font-size: 10px;
+            }
+            body {
+                font-family: "Asul";
+                padding-left: 10rem;
+                padding-top: 10px;
+                text-align: center;
+            }
+    }
