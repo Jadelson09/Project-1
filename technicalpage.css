@@ -1,0 +1,54 @@
+body {
+    font-family: "Asul";
+    padding-left: 25rem;
+    padding-top: 10px;
+}
+#main-doc {
+    margin: 0;
+}
+.main-section {
+    text-align:left;
+    padding: 10px;
+}
+img {
+    width: 300px;
+    padding-bottom: 10px;
+}
+.header-text {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+table {
+    border: 2px solid teal;
+    border-collapse: collapse;
+  }
+  th,td {
+    padding: 15px;
+    text-align: center;
+  }
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 380px;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 10px;
+    background-color: teal;
+    }
+    #navbar a {
+        display: block;
+        padding: 15px 30px;
+        color: #ffffff;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .nav-link {
+          color: white;
+      }
+footer {
+    text-align: center;
+}
+
