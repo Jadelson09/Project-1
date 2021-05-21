@@ -2,37 +2,79 @@
 <html>
     <head>
         <title>Personal Portfolio Webpage</title>
-        <link href="technicalpage.css" type="text/css" rel="stylesheet">
+        <link href="portfolio.css" type="text/css" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Asul' type="text/css" rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" type="text/css" rel="stylesheet">
     </head>
 
-    <nav>
+    <nav id="navbar">
         <ul>
-            <img src="https://res.cloudinary.com/jasona9cdn/image/upload/v1621582994/jA_d7fdn9.png" alt="Jason Adelson Logo" />
-            <li><a href="#About" class="nav-link">About</a></li>
-            <li><a href="#Work" class="nav-link">Work</a></li>
-            <li><a href="#Contact" class="nav-link">Contact</a></li>
+            <li class="nav-list"><a href="#welcome-section" class="nav-link">About</a></li>
+            <li class="nav-list"><a href="#projects" class="nav-link">Work</a></li>
+            <li class="nav-list"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
     </nav>
-    
+
     <body>
-        This is a test
+        <section id="welcome-section">
+           <img class="nav-list" src="https://res.cloudinary.com/jasona9cdn/image/upload/v1621582994/jA_d7fdn9.png" alt="Jason Adelson Logo" />
+           <h1>Hey I am Jason Adelson</h1>
+           <h2>an aspiring web developer & designer</h2>
+        </section>
+        <section id="projects">
+            <h1 class="h1p">These are some of my projects so far...</h1>
+                <div class="project-tile">
+                <a href="https://codepen.io/jadelson09/pen/ExZqQmR" target="_blank" class="a-align">Tribute Page</a>
+                <img class="small-img project-" src="https://res.cloudinary.com/jasona9cdn/image/upload/v1621596529/Tribute_Page_1_ukef9c.png" alt="Tribute Page">
+                </div>
+
+                <div class="project-tile">
+                <a href="https://codepen.io/jadelson09/pen/wvJgWRr" target="_blank" class="a-align">Technical Page</a>
+                <img class="small-img" src="https://res.cloudinary.com/jasona9cdn/image/upload/v1621597739/Technical_Page_g7pwgq.png" alt="TechnicalPage">
+                </div>
+
+                <div class="project-tile">
+                <a href="https://codepen.io/jadelson09/pen/mdWOrZa" target="_blank" class="a-align">Product Landing Page</a>
+                 <img class="small-img" src="https://res.cloudinary.com/jasona9cdn/image/upload/v1621598694/Product_Landing_Page_jqxo9b.png" alt="Product Landing Page">
+                 </div>
+
+                 <div class="project-tile">
+                    <a href="https://codepen.io/jadelson09/pen/poeJxWX" target="_blank" class="a-align">Research Survey Page</a>
+                     <img class="small-img" src="https://res.cloudinary.com/jasona9cdn/image/upload/v1621598965/Research_Survey_Page_smhl0r.png" alt="Research Survey Page">
+                     </div>
+            </section>
+
+            <section id="contact">
+                <iframe id="video" src="https://www.youtube.com/embed/RR2EI8EEOOw?playlist=RR2EI8EEOOw&autoplay=1&loop=1&mute=1&controls=0&showinfo=0&fs=0&modestbranding=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+              </section>
+
+            <section>
+            <h2 class="c-h2">Let's work together...</h2>
+            <div id="profile-link"><a href="https://github.com/Jadelson09" target="_blank">GitHub</a></div>
+            <div id="profile-link"><a href="https://www.freecodecamp.org/jadelson" target="_blank">FCC</a></div>
+            </section>
+
+            <section>
+                
+                <h3>Contact Us</h3>
+                <form id="contact-form">
+                        
+                <label id="name-label" for="name"></label>
+                <input id="name" class="type-text" type="text" name="name" placeholder="Name" required></input>
+                <label id="email-label" for="email"></label>
+                <input id="email" class="type-text" type="email" name="email" placeholder="Email" required></input>
+                <label id="phone number-label" for="phone number"></label>
+                <input id="tel" class="type-number" type="tel" name="phone number" placeholder="Phone Number" required></input>
+                <textarea id="text" name="description-textarea" placeholder="Comments" required></textarea>    
+                <button id="submit" class="div-button" type="submit">Submit</button>
+                
+                </form>
+            </section>
+
+            <footer>**This is just a fake portfolio. All the projects and contact details given are not real.
+
+                ©Copyright Jason Adelson 2021 - FreeCodeCamp Portfolio Project</footer>
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     </html>

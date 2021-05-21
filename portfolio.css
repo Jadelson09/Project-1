@@ -1,3 +1,204 @@
 body {
-    color: black;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+h1 {
+    font-family: 'Asul';
+    font-size: 40px;
+}
+.h1p {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+h2 {
+    font-family: 'Poppins';
+    color:#0045ff;
+}
+.c-h2 {
+    font-family: 'Poppins';
+    color:#0045ff;
+    padding-bottom: 1rem;
+}
+h3 {
+    padding-top: 1rem;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 9px;
+}
+.small-img {
+    width: 300px;
+}
+.project-tile {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Poppins";
+    display: inline-block;
+    padding: 10px;
+  }
+
+#welcome-section {
+    text-align: center;
+    padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+#projects {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #0045ff;
+    width: 100%;
+    position: fixed;
+    transition: top 0.3s;
+}
+
+#navbar a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    padding: 14px;
+}
+#navbar a:hover {
+    background-color: turquoise;
+    color: rgb(255, 255, 255);
+  }
+
+.nav-link {
+    color: white;
+}
+#video {
+    display: block;
+    align-items: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 860px; 
+    height: 515px;
+    margin-top: -5rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Asul";
+}
+
+#contact-form {
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+    padding: 15px;
+}
+input {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 18px;
+    padding-left: 18px;
+    text-align: center;
+    font-family: "Asul";
+    font-weight: bold;
+    font:400;
+}
+label {
+    padding: 1px;
+}
+textarea {
+    padding: 14.5px;
+    font-family: "Asul";
+    text-align: center;
+    margin-top: 2px;
+    font-weight: bold;
+}
+button {
+    padding: 7px;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    padding: 10px;
+    font-family: "Poppins";
+    font-weight: bold;
+    margin-left: 0.4rem;
+}
+#profile-link {
+    text-align: center;
+    border-radius: 100%;
+    border: 10px #0045ff;
+    color: whitesmoke;
+    background: grey;
+    display: inline-block;
+    padding: 15px;
+    list-style-type: none;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-decoration: none;
+}
+button:hover{
+    animation-name: inherit;
+    animation-duration: 500ms;
+    background-color: turquoise;
+      /* Only change code below this line */
+  animation-fill-mode: forwards;
+  /* Only change code above this line */
+}
+a {
+    color: #00eeff;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+    #video {
+        display: block;
+        align-items: center;
+        justify-items: center;
+        padding-top: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px; 
+        height: 500px;
+    }
+    #profile-link {
+        text-align: center;
+        border-radius: 100%;
+        border: 10px #0045ff;
+        color: whitesmoke;
+        background: grey;
+        display: inline-block;
+        padding: 15px;
+        list-style-type: none;
+        font-weight: bold;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        text-decoration: none;
+        margin: 5px;
+    }
 }
